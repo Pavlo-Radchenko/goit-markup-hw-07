@@ -190,6 +190,11 @@ p {
   fill: var(--accent-color);
 }
 
+/* portfolio header */
+.header.portfolio {
+  border: 1px solid #ececec;
+}
+
 /* hero */
 
 .hero {
@@ -652,8 +657,6 @@ img {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-
-/* portfolio file */
 
 /* overlay start */
 .overlay {
