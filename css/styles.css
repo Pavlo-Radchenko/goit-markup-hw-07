@@ -52,6 +52,9 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* header logo */
@@ -191,7 +194,7 @@ p {
 }
 
 /* portfolio header */
-.header.portfolio {
+.header__portfolio {
   border: 1px solid #ececec;
 }
 
@@ -359,12 +362,7 @@ img {
   text-align: left;
 }
 
-.container.div {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container.div .section-list {
+.section-list {
   display: flex;
   gap: 30px;
 }
