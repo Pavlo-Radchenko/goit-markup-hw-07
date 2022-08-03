@@ -755,15 +755,21 @@ img {
   justify-content: center;
 }
 
+.benefits__link {
+  padding: 20px 24px;
+}
+
 .benefits__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 
   text-align: left;
+  width: auto;
 }
+
 .benefits__text {
   color: var(--primary-text-color);
   font-weight: 400;
@@ -773,12 +779,8 @@ img {
   text-align: left;
 }
 
-.benefits__link {
-  padding: 20px 24px;
-}
-
 .benefits__item {
-  /* justify-content: space-between; */
+  justify-content: space-between;
 
   width: 370px;
   height: 404px;
