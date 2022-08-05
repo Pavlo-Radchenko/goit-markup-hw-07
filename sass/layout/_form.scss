@@ -55,6 +55,14 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* :focus-visible прибирае */
   outline: none;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+    border-radius: 4px;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .form__icon {
@@ -80,6 +88,7 @@
   border-radius: 4px;
 
   margin-top: 4px;
+  margin-bottom: 20px;
   padding: 12px 16px;
   resize: none;
 
@@ -91,16 +100,14 @@
 
     color: rgba(117, 117, 117, 0.5);
   }
-}
 
-.form__input:hover,
-.form__input:focus,
-.form__text:hover,
-.form__text:focus {
-  border: 1px solid #2196f3;
-  border-radius: 4px;
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+    border-radius: 4px;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .checkbox-privacy__group {

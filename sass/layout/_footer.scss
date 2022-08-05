@@ -44,12 +44,24 @@
   line-height: 1.7;
 
   transition: var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: var(--transition);
+  }
 }
 .footer__nav {
   color: #ffffff99;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: var(--transition);
+  }
 }
 
 .footer__link,
@@ -60,15 +72,6 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.footer__nav:hover,
-.footer__link:hover,
-.footer__nav:focus,
-.footer__link:focus {
-  color: var(--accent-color);
-
-  transition: var(--transition);
 }
 
 .footer__title {
