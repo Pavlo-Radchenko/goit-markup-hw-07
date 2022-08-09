@@ -1,5 +1,16 @@
 .wwd__section {
   padding-top: 0;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.wwd__list {
+  display: flex;
+  gap: 30px;
+
+  list-style: none;
 }
 
 .wwd__item {
